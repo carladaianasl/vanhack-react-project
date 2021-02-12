@@ -12,7 +12,7 @@ class Navbar extends React.Component{
 			<div className="Heading">
 				<div className="navbar-text">
 					Principal Product Manager @Driftwood sidecorp 
-					<InfoOutlinedIcon style={{ fontSize: 30 }}></InfoOutlinedIcon>
+					<InfoOutlinedIcon style={{ fontSize: 28 }} className="icon-info"></InfoOutlinedIcon>
 				</div>				
 
 				<nav className="NavbarItems">

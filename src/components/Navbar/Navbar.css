@@ -9,17 +9,20 @@
 	color: black;
 	justify-content: start;
 	cursor: pointer;
-	background: lightgray;
 	float: left;
 	font-size: 20px;
 	height: 77px;
 	margin-left: 60px;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 23px;
   position: relative;
 }
 
-
+.icon-info{
+    position: absolute;
+    top: 23px;
+    right: -40px;
+}
 .NavbarItems{
 	width: 100%;
 	float: left;

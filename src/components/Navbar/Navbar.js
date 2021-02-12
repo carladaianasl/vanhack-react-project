@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MenuItems } from "./Menuitems";
 import SimpleMenuInfo from "./Menuinfoicon";
+import GroupAvatars from "./Groupavatars";
 import './Navbar.css';
 
 
@@ -9,10 +10,18 @@ class Navbar extends React.Component{
 	render(){
 		return(
 			<div className="Heading">
-				<div className="navbar-text">
+				<div className="navbar-top-left">
 					Principal Product Manager @Driftwood sidecorp 
 					<SimpleMenuInfo />
-				</div>			
+				</div>
+
+				<div className="navbar-top-right">
+					<GroupAvatars />
+				</div>		
+
+				<div className="navbar-top-right">
+					button
+				</div>		
 
 				<nav className="NavbarItems">
 					<ul>

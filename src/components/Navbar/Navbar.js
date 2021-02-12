@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import { MenuItems } from "./Menuitems";
+import SimpleMenuInfo from "./Menuinfoicon";
 import './Navbar.css';
-import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
+
 
 class Navbar extends React.Component{
 	
-
-
 	render(){
 		return(
 			<div className="Heading">
 				<div className="navbar-text">
 					Principal Product Manager @Driftwood sidecorp 
-					<InfoOutlinedIcon style={{ fontSize: 28 }} className="icon-info"></InfoOutlinedIcon>
-				</div>				
+					<SimpleMenuInfo />
+				</div>			
 
 				<nav className="NavbarItems">
 					<ul>

@@ -54,14 +54,14 @@ li a {
 }
 
 li a:hover {
-  border-bottom: 2px solid blue;
+  border-bottom: 3px solid blue;
   margin-bottom: -2px;
   color: blue;
 }
 
 
 li a:active {
-  border-bottom: 2px solid blue;
+  border-bottom: 3px solid blue;
   margin-bottom: -2px;
   color: blue;
 }

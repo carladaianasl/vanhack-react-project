@@ -1,12 +1,14 @@
 export const MenuItems = [
 	{
 		title: 'Calendar',
-		url: 'calendar',
-		cName: 'nav-links'
+		url: '#',
+		cName: 'active',
+		id: 0
 	},
 	{
 		title: 'Next Interviews',
-		url: 'next',
-		cName: 'nav-links'
+		url: '#',
+		cName: '',
+		id: 1
 	}
 ]

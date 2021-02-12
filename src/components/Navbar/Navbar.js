@@ -6,7 +6,15 @@ import OutlinedButtons from "../button";
 import './Navbar.css';
 
 
+
 class Navbar extends React.Component{
+
+	constructor(props) {
+	    super(props);
+	    this.state = {
+	      count: 0
+	    };
+  	}
 	
 	render(){
 		return(
@@ -29,7 +37,7 @@ class Navbar extends React.Component{
 						{MenuItems.map((item, index) => {
 							return(
 								<li key={index}>
-									<a className={item.cName} href={item.url}>
+									<a className={item.id == this.state.count ? "active" : "" } href={item.url} id={item.id} onClick={() => this.setState({ count: item.id })}>
 									{item.title}
 									</a>
 								</li>
@@ -42,5 +50,7 @@ class Navbar extends React.Component{
 		)
 	}
 }
+
+
 
 export default Navbar;

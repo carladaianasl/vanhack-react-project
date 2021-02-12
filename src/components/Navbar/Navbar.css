@@ -1,0 +1,51 @@
+.Heading{
+	background-color: white;
+	height: 120px;
+}
+
+.navbar-text{
+	color: gray;
+	justify-content: start;
+	cursor: pointer;
+	background: lightgray;
+	float: left;
+	font-size: 20px;
+	height: 70px;
+	margin-left: 40px;
+}
+
+.NavbarItems{
+	width: 100%;
+	float: left;
+	border-top: 1px solid lightgray;
+  	border-bottom: 1px solid lightgray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 50px;
+  margin-left: 40px;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 0px 12px 0px;
+  background: red;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+

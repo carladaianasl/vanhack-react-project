@@ -1,51 +1,64 @@
 .Heading{
 	background-color: white;
 	height: 120px;
+  position: relative;
+  box-shadow: 0px 0px 5px lightgray;
 }
 
 .navbar-text{
-	color: gray;
+	color: black;
 	justify-content: start;
 	cursor: pointer;
 	background: lightgray;
 	float: left;
 	font-size: 20px;
-	height: 70px;
-	margin-left: 40px;
+	height: 77px;
+	margin-left: 60px;
+  font-weight: bold;
+  padding-top: 10px;
+  position: relative;
 }
+
 
 .NavbarItems{
 	width: 100%;
 	float: left;
 	border-top: 1px solid lightgray;
-  	border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 50px;
-  margin-left: 40px;
-  
+  display: inline;
+  width: auto;
+  float: left;
+  list-style-type: none;  
+  margin-left: 20px;
 }
 
 li {
   float: left;
+  padding-left: 40px;
 }
 
 li a {
   display: block;
-  color: gray;
+  color: black;
   text-align: center;
   text-decoration: none;
-  padding: 12px 0px 12px 0px;
-  background: red;
+  padding: 10px 0px 10px 0px;
+  
+
 }
 
 li a:hover {
-  background-color: #111;
+  border-bottom: 2px solid blue;
+  margin-bottom: -2px;
+  color: blue;
 }
 
 
+li a:active {
+  border-bottom: 2px solid blue;
+  margin-bottom: -2px;
+  color: blue;
+}

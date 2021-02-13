@@ -82,7 +82,20 @@ li a:hover {
   padding-left: 10px;
 }
 
+.text-skills{
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 4px;
+  display: inline;
+  float: left;
+  widows: auto;
+  height: auto;
+}
+
 .horiz-menu > div {
   display: inline-block;
-  width: 300px;
+  width: 350px;
 }

@@ -99,3 +99,11 @@ li a:hover {
   display: inline-block;
   width: 350px;
 }
+
+.main{
+  background-color: red;
+  position: absolute;
+  top: 122px;
+  width: 100%;
+  height: auto;
+}

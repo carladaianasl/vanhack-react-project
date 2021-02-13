@@ -19,8 +19,6 @@ const useStyles = makeStyles({
   },
 });
 
-
-
 function SimpleMenuInfo() {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -55,8 +53,6 @@ function SimpleMenuInfo() {
           <div style={{ marginLeft: '10px' }}> 
 
             <ItSkills 
-
-              style={{ marginLeft: '10px' }}
               name="Machine Learning"
             />
 

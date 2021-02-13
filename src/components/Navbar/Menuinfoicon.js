@@ -7,14 +7,15 @@ import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined'
 import EmojiTransportationOutlinedIcon from '@material-ui/icons/EmojiTransportationOutlined';
 import MonetizationOnOutlinedIcon from '@material-ui/icons/MonetizationOnOutlined';
 import RoomOutlinedIcon from '@material-ui/icons/RoomOutlined';
+import './Navbar.css';
 
 const useStyles = makeStyles({
   root: {
-    color: 'red',
+    color: 'black',
+    display: 'flex',
+    width: '100%',
+    fontSize: '15px',
   },
-  label: {
-    width: '20px;'
-  }
 });
 
 
@@ -37,17 +38,19 @@ function SimpleMenuInfo() {
       <InfoOutlinedIcon style={{ fontSize: 28 }} className="icon-info" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}></InfoOutlinedIcon>
       <Menu
         id="simple-menu"
+        width="200px"
         anchorEl={anchorEl}
         keepMounted
         open={Boolean(anchorEl)}
-        onClose={handleClose}     
+        onClose={handleClose}   
+        className="horiz-menu"  
         >
 
-        <MenuItem onClick={handleClose} className={classes.root}> <EmojiTransportationOutlinedIcon /> Drift sidecorp</MenuItem>
-        <MenuItem onClick={handleClose} className={classes.root}> <AccountCircleOutlinedIcon /> 1 Position</MenuItem>
-        <MenuItem onClick={handleClose} className={classes.root}> <MonetizationOnOutlinedIcon /> $CAD 100 - 140k</MenuItem>
-        <MenuItem onClick={handleClose} className={classes.root}> <RoomOutlinedIcon /> Remote</MenuItem>
-        <MenuItem onClick={handleClose} className={classes.root}> <i class="fas fa-laptop-code"></i> Remote</MenuItem>
+        <MenuItem onClick={handleClose} className={classes.root}> <EmojiTransportationOutlinedIcon /> <span className="text-icon">Drift sidecorp </span></MenuItem>
+        <MenuItem onClick={handleClose} className={classes.root}> <AccountCircleOutlinedIcon /> <span className="text-icon"> 1 Position </span> </MenuItem>
+        <MenuItem onClick={handleClose} className={classes.root}> <MonetizationOnOutlinedIcon /> <span className="text-icon"> $CAD 100 - 140k </span> </MenuItem>
+        <MenuItem onClick={handleClose} className={classes.root}> <RoomOutlinedIcon /> <span className="text-icon"> Remote </span> </MenuItem>
+        <MenuItem onClick={handleClose} className={classes.root}> <i class="fas fa-laptop-code"></i> <span className="text-icon"> Remote </span></MenuItem>
       </Menu>
     </div>
   );

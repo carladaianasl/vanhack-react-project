@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Avatars from "./avatars";
-import Candidates from "./candidates-calendar";
+import Candidates from "./candidates-line";
 import './body.css';
 
 

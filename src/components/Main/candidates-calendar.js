@@ -11,7 +11,7 @@ const Candidates = (props) =>{
   return (
     <div>
      
-      <div className="grid-container {props.background}">
+      <div className={props.style}>
         
         <div className="grid-item first">
           <Avatars 

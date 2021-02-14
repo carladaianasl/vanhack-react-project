@@ -21,7 +21,7 @@ function Calendar() {
 
 		<h1>Waiting confirmation</h1>
 		<Candidates 
-			style="grid-item first"
+			style="grid-container"
 		  	img="/static/images/avatar/2.jpg"
 		  	candidate="Brooklyn Simmons"
 		  	qualification="FullStack Developer"
@@ -33,8 +33,7 @@ function Calendar() {
 
 		<h1>Upcoming</h1>
 		<Candidates 
-			title="Waiting confirmation"
-			style="grid-item first"
+			style="grid-container upcoming"
 		  	img="/static/images/avatar/2.jpg"
 		  	candidate="Brooklyn Simmons"
 		  	qualification="FullStack Developer"
@@ -44,8 +43,7 @@ function Calendar() {
 		/>
 
 		<Candidates 
-			title="Waiting confirmation"
-			style="grid-item first"
+			style="grid-container upcoming"
 		  	img="/static/images/avatar/2.jpg"
 		  	candidate="Brooklyn Simmons"
 		  	qualification="FullStack Developer"
@@ -54,6 +52,16 @@ function Calendar() {
 		  	textSchedule="Waiting confirmation"
 		/>
 
+		<h1>Done</h1>
+		<Candidates 
+			style="grid-container"
+		  	img="/static/images/avatar/2.jpg"
+		  	candidate="Brooklyn Simmons"
+		  	qualification="FullStack Developer"
+		  	interviewStep="Technical Interview"
+		  	styleSchedule=""
+		  	textSchedule="Waiting confirmation"
+		/>
 		
 	</div>
   );

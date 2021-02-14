@@ -19,7 +19,7 @@ class Navbar extends React.Component{
 	
 	render(){
 		return(
-			<div className="Heading">
+			<div className="Header">
 				<div className="navbar-top-left">
 					Principal Product Manager @Driftwood sidecorp 
 					<SimpleMenuInfo />
@@ -30,35 +30,33 @@ class Navbar extends React.Component{
 				</div>		
 
 				<div className="navbar-top-right">
-					<OutlinedButtons name="Edit job" buttonstyle="button-navbar" color="primary" />
+					<OutlinedButtons name="Edit job" color="primary" />
 				</div>		
 
-	<Router>
-      <div className="NavbarItems">
-        <ul>
-          <li>
-            <Link to="/" className="active">Calendar</Link>
-          </li>
-          <li>
-            <Link to="/next">Next Interview</Link>
-          </li>
-        </ul>
+				<Router>
+			      	<div className="NavbarItems">
+				        <ul>
+				          <li>
+				            <Link to="/" className="active">Calendar</Link>
+				          </li>
+				          <li>
+				            <Link to="/next">Next Interview</Link>
+				          </li>
+				        </ul>
+				    </div>
 
-        {}
+			      	<div className="main">
+				        <Switch>
+				          <Route exact path="/">
+				            <Calendar />
+				          </Route>
+				          <Route path="/next">
+				          	<Next />
+				          </Route>
+				        </Switch>
+			        </div>
 
-      <div className="main">
-        <Switch>
-          <Route exact path="/">
-            <Calendar />
-          </Route>
-          <Route path="/next">
-            <Next />
-          </Route>
-        </Switch>
-        </div>
-
-      </div>
-    </Router>
+			    </Router>
 
 			</div>
 		)

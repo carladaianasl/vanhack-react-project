@@ -1,4 +1,4 @@
-.Heading{
+.Header{
 	background-color: white;
 	height: 120px;
   position: relative;
@@ -101,7 +101,6 @@ li a:hover {
 }
 
 .main{
-  background-color: red;
   position: absolute;
   top: 122px;
   width: 100%;

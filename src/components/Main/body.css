@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-row-gap: 50px;
-  grid-template-columns: 30% auto auto auto;
+  grid-template-columns: 30% 20% 20% 15% 10% 5%;
   padding-left: 0px;
 }
 
@@ -20,9 +20,9 @@
   padding-bottom: 20px;
   padding-top: 20px;
   font-size: 14px;
-  border: 0px solid white;
+  border: 1px solid white;
   padding-left: 20px;
-  background-color: ;
+  background-color: red;
   position: relative;
 }
 
@@ -30,6 +30,12 @@
   padding-left: 60px;
 }
 
+button.waiting{
+  color: orange;
+  padding: 2px 25px 2px 25px ;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
 
 .calendar-name{
   position: relative;
@@ -50,4 +56,8 @@ h1{
   padding: 14px;
   padding-top: 25px;
   padding-left: 60px;
+}
+
+.button-calendar{
+  padding:0px;
 }

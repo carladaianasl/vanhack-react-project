@@ -18,8 +18,13 @@ const OutlinedButtons = (props) =>{
 
   return (
     <div className={classes.root}>
-      <Button variant="outlined" color={props.color} className={props.buttonstyle}>
-        {props.name}
+      <Button
+        variant="outlined"
+        color={props.color}
+        className={props.buttonstyle} >
+        
+          {props.name}
+
       </Button>
     </div>
   );

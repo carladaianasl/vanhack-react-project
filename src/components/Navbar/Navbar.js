@@ -40,7 +40,7 @@ class Navbar extends React.Component{
 				            <Link to="/" className="active">Calendar</Link>
 				          </li>
 				          <li>
-				            <Link to="/next">Next Interview</Link>
+				            <Link to="/next">Next Interviews</Link>
 				          </li>
 				        </ul>
 				    </div>

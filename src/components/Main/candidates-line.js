@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Avatars from "./avatars";
 import OutlinedButtons from "../button";
-import OptionMenu from "./optionsMenu";
+import Options from "./optionMenu";
 import './body.css';
 
 
@@ -39,7 +39,9 @@ const Candidates = (props) =>{
         <div className="grid-item">{props.textSideButton}</div>
 
         <div className="grid-item">
-            <OptionMenu  />
+            <Options
+              type={props.type}
+            />
         </div>
 
       </div>

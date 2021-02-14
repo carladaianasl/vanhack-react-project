@@ -28,6 +28,7 @@ function Calendar() {
 		  	styleSchedule="waiting"
 		  	textSchedule="Waiting confirmation"
 		  	buttonStyle="none"
+		  	type="waiting"
 		/>
 
 

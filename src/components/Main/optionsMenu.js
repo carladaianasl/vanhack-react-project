@@ -5,14 +5,14 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const options = [
-  'None',
-  'Atria',
-  'Callisto',
-  'Dione',
-  'Ganymede',
+  'Send the request again',
+  'Cancel request',
+  'Set as Interview done',
+  'View calendar',
+  'Report a problem',
 ];
 
-const ITEM_HEIGHT = 48;
+const ITEM_HEIGHT = 'auto';
 
 export default function OptionMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -45,7 +45,7 @@ export default function OptionMenu() {
         PaperProps={{
           style: {
             maxHeight: ITEM_HEIGHT * 4.5,
-            width: '20ch',
+            width: '200px',
           },
         }}
       >

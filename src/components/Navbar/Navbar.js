@@ -30,7 +30,7 @@ class Navbar extends React.Component{
 				</div>		
 
 				<div className="navbar-top-right">
-					<OutlinedButtons name="Edit job" buttonstyle="button-navbar" color="primary" />
+					<OutlinedButtons name="Edit job" color="primary" />
 				</div>		
 
 				<Router>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Avatars from "./avatars";
-import OutlinedButtons from "../button";
 import Candidates from "./candidates-calendar";
 import './body.css';
 
@@ -23,11 +22,12 @@ function Calendar() {
 		<Candidates 
 			style="grid-container"
 		  	img="/static/images/avatar/2.jpg"
-		  	candidate="Brooklyn Simmons"
+		  	candidate="Jorge Watson"
 		  	qualification="FullStack Developer"
 		  	interviewStep="Technical Interview"
-		  	styleSchedule=""
+		  	styleSchedule="waiting"
 		  	textSchedule="Waiting confirmation"
+		  	buttonStyle="none"
 		/>
 
 
@@ -38,29 +38,52 @@ function Calendar() {
 		  	candidate="Brooklyn Simmons"
 		  	qualification="FullStack Developer"
 		  	interviewStep="Technical Interview"
-		  	styleSchedule=""
-		  	textSchedule="Waiting confirmation"
+		  	textSchedule="Tue, Nov, 18th - 10:00am"
+		  	textButton="Get interview link"
 		/>
 
 		<Candidates 
 			style="grid-container upcoming"
 		  	img="/static/images/avatar/2.jpg"
-		  	candidate="Brooklyn Simmons"
+		  	candidate="Esther Howard"
 		  	qualification="FullStack Developer"
 		  	interviewStep="Technical Interview"
-		  	styleSchedule=""
-		  	textSchedule="Waiting confirmation"
+		  	textSchedule="Tue, Nov, 18th - 10:00am"
+		  	textButton="Get interview link"
 		/>
 
 		<h1>Done</h1>
 		<Candidates 
 			style="grid-container"
 		  	img="/static/images/avatar/2.jpg"
-		  	candidate="Brooklyn Simmons"
+		  	candidate="Robert Fox"
 		  	qualification="FullStack Developer"
 		  	interviewStep="Technical Interview"
-		  	styleSchedule=""
-		  	textSchedule="Waiting confirmation"
+		  	textSchedule="Tue, Nov, 18th - 10:00am"
+		  	textButton="Move to the next step"
+		  	textSideButton="Reject"
+		/>
+
+		<Candidates 
+			style="grid-container"
+		  	img="/static/images/avatar/2.jpg"
+		  	candidate="Cameron Williamson"
+		  	qualification="FullStack Developer"
+		  	interviewStep="Technical Interview"
+		  	textSchedule="Tue, Nov, 18th - 10:00am"
+		  	textButton="Move to the next step"
+		  	textSideButton="Reject"
+		/>
+
+		<Candidates 
+			style="grid-container"
+		  	img="/static/images/avatar/2.jpg"
+		  	candidate="Robert Fox"
+		  	qualification="FullStack Developer"
+		  	interviewStep="HR Interview"
+		  	textSchedule="Tue, Nov, 18th - 10:00am"
+		  	textButton="Move to the next step"
+		  	buttonStyle="none"
 		/>
 		
 	</div>

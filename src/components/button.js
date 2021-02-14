@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
       textTransform: 'none',
       color: '#0675ce',
       borderColor: '#0675ce',
+      fontSize: '14px',
     },
   },
 }));
@@ -21,7 +22,7 @@ const OutlinedButtons = (props) =>{
       <Button
         variant="outlined"
         color={props.color}
-        className={props.buttonstyle} >
+      >
         
           {props.name}
 

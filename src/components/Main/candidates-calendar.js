@@ -8,29 +8,37 @@ import './body.css';
 
 const Candidates = (props) =>{
 
-  return (
-    <div>
-     
+  return (     
       <div className={props.style}>
         
         <div className="grid-item first">
-          <Avatars 
-              alt={props.avatarName}
-              img={props.img} />
+           <Avatars 
+                alt={props.avatarName}
+                img={props.img}
+            />
           <div className="calendar-name"> {props.candidate} </div>
           <div className="calendar-title"> {props.qualification}</div>
         </div>
           
-        <div className="grid-item second"> {props.interviewStep}</div>
-        <div className="grid-item">
-          <button className={props.styleSchedule}> {props.textSchedule} </button> </div>
-        <div className="grid-item">
-          <OutlinedButtons name={props.textButton} buttonstyle={props.styleButton} color="primary" />
+        <div className="grid-item second"> 
+            {props.interviewStep}
         </div>
+
+        <div className="grid-item">
+            <span className={props.styleSchedule}> {props.textSchedule} </span> 
+        </div>
+
+        <div className="grid-item">
+            <div className={props.buttonStyle}>
+                <OutlinedButtons name={props.textButton} buttonstyle={props.bstyle} color="primary" />
+            </div>
+        </div>
+
         <div className="grid-item">{props.textSideButton}</div>
+
         <div className="grid-item">...</div>
+
       </div>
-    </div>
   );
 }
 

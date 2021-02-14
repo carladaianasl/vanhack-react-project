@@ -20,7 +20,7 @@
   padding-bottom: 20px;
   padding-top: 20px;
   font-size: 14px;
-  border: 1px solid white;
+  border: 0px solid white;
   padding-left: 20px;
   background-color: ;
   position: relative;
@@ -30,7 +30,7 @@
   padding-left: 60px;
 }
 
-button.waiting{
+span.waiting{
   color: orange;
   padding: 2px 25px 2px 25px ;
   border: 1px solid lightgray;
@@ -60,4 +60,8 @@ h1{
 
 .button-calendar{
   padding:0px;
+}
+
+.none{
+  display: none;
 }

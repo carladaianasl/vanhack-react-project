@@ -1,0 +1,109 @@
+.Heading{
+	background-color: white;
+	height: 120px;
+  position: relative;
+  box-shadow: 0px 0px 4px lightgray;
+}
+
+.navbar-top-left{
+	color: #4f4f4f;
+	justify-content: start;
+	cursor: pointer;
+	float: left;
+	font-size: 20px;
+	height: 77px;
+	margin-left: 60px;
+  font-weight: bold;
+  padding-top: 23px;
+  position: relative;
+}
+
+.navbar-top-right{
+  float: right;
+  height: 77px;
+  margin-right: 60px;
+  padding-top: 19px;
+  position: relative;
+  width: auto; 
+}
+
+
+.icon-info{
+    position: absolute;
+    top: 23px;
+    right: -40px;
+}
+.NavbarItems{
+	width: 100%;
+	float: left;
+	border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+ul {
+  display: inline;
+  width: auto;
+  float: left;
+  list-style-type: none;  
+  margin-left: 20px;
+}
+
+li {
+  float: left;
+  padding-left: 40px;
+}
+
+li a {
+  display: block;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0px 10px 0px;
+  
+
+}
+
+li a:hover {
+  border-bottom: 3px solid #0675ce;
+  margin-bottom: -2px;
+  color: #0675ce;
+}
+
+
+.active {
+  border-bottom: 3px solid #0675ce;
+  margin-bottom: -2px;
+  color: #0675ce;
+}
+
+
+.text-icon{
+  position: relative;
+  padding-left: 10px;
+}
+
+.text-skills{
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 4px;
+  display: inline;
+  float: left;
+  widows: auto;
+  height: auto;
+}
+
+.horiz-menu > div {
+  display: inline-block;
+  width: 350px;
+}
+
+.main{
+  background-color: red;
+  position: absolute;
+  top: 122px;
+  width: 100%;
+  height: auto;
+}

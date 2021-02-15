@@ -5,8 +5,10 @@ import Avatars from "./avatars";
 import OutlinedButtons from "../button";
 import Options from "./optionMenu";
 import './body.css';
+import moment from 'moment';
 
 const Candidates = (props) =>{
+  
 
   return (     
       <div className={props.style}>
@@ -25,7 +27,7 @@ const Candidates = (props) =>{
         </div>
 
         <div className="grid-item">
-            <span className={props.styleSchedule}> {props.textSchedule} </span> 
+            <span className={props.styleSchedule}> {moment(props.textSchedule).isValid() ?  moment(props.textSchedule).format("ddd, MMM, Do - hh:mma") : props.textSchedule} </span> 
         </div>
 
         <div className="grid-item">

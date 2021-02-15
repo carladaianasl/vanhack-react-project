@@ -65,3 +65,11 @@ h1{
 .none{
   display: none;
 }
+
+.loading{
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  color: #0675ce;
+  font-size: 16px;
+}

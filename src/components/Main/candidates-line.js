@@ -6,8 +6,6 @@ import OutlinedButtons from "../button";
 import Options from "./optionMenu";
 import './body.css';
 
-
-
 const Candidates = (props) =>{
 
   return (     

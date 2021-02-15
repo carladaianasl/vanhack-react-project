@@ -4,6 +4,7 @@ import GroupAvatars from "./Groupavatars";
 import OutlinedButtons from "../button";
 import './Navbar.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 import Calendar from "../Main/Calendar";
 import Next from "../Main/Next";
 
@@ -38,10 +39,10 @@ class Navbar extends React.Component{
 			      	<div className="NavbarItems">
 				        <ul>
 				          <li>
-				            <Link to="/" className="active">Calendar</Link>
+				            <NavLink exact activeClassName="active" to="/">Calendar</NavLink>
 				          </li>
 				          <li>
-				            <Link to="/next">Next Interviews</Link>
+				             <NavLink exact activeClassName="active" to="/next">Next Interviews</NavLink>
 				          </li>
 				        </ul>
 				    </div>

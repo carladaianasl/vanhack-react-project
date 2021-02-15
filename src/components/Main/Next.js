@@ -49,7 +49,7 @@ class Next extends Component {
 					  <div className="grid-item"></div>
 					</div>
 
-					<Linestyle color="black" />
+					<Linestyle color="lightgray" />
 
 					
 							{items.map(item => (

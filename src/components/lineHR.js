@@ -1,11 +1,11 @@
 const Linestyle = ({ color }) => (
     <hr
         style={{
+        	color: color,
             backgroundColor: color,
             marginLeft: '1%',
             width: '98%',
-            textDecoration: "none",
-            border: '0px',
+            opacity: '0.1',
         }}
     />
 );

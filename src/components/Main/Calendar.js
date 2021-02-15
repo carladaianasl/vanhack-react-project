@@ -53,8 +53,8 @@ class Calendar extends Component {
 					  <div className="grid-item"></div>
 					  <div className="grid-item"></div>
 					</div>
-
-					<Linestyle color="#f7f7f7" />
+					
+					<Linestyle color="lightgray" />
 
 					<h1>Waiting confirmation</h1>
 

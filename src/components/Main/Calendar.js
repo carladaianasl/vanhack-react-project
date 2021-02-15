@@ -33,7 +33,7 @@ class Calendar extends Component {
 		var { isLoaded, items } = this.state;
 
 		if (!isLoaded){
-			return <div> Loading .. </div>;
+			return <div className="loading"><i> Loading... </i> </div>;
 		}
 
 		else {

@@ -49,7 +49,7 @@ class Next extends Component {
 					  <div className="grid-item"></div>
 					</div>
 
-					<Linestyle color="#f7f7f7" />
+					<Linestyle color="black" />
 
 					
 							{items.map(item => (
@@ -62,6 +62,7 @@ class Next extends Component {
 						  				interviewStep={item.interviewStep}
 						  				textSchedule={item.scheduledTime}
 						  				textButton="Get interview link"
+						  				href={"https://api-test.vanhack.dev/Calendar/interviewlink/" + item.id }
 									/>
 								</div>
 							))}

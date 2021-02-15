@@ -22,6 +22,7 @@ const OutlinedButtons = (props) =>{
       <Button
         variant="outlined"
         color={props.color}
+        href={props.href}
       >
         
           {props.name}

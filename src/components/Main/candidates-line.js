@@ -32,11 +32,20 @@ const Candidates = (props) =>{
 
         <div className="grid-item">
             <div className={props.buttonStyle}>
-                <OutlinedButtons name={props.textButton} buttonstyle={props.bstyle} color="primary" />
+                <OutlinedButtons
+                  name={props.textButton}
+                  buttonstyle={props.bstyle}
+                  color="primary"
+                  href={props.href}
+                />
             </div>
         </div>
 
-        <div className="grid-item">{props.textSideButton}</div>
+        <div className="grid-item">
+          <a href={props.linkTextSide}>
+            {props.textSideButton}
+          </a>
+        </div>
 
         <div className="grid-item">
             <Options

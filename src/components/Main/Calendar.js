@@ -87,6 +87,7 @@ class Calendar extends Component {
 					  				interviewStep={item.interviewStep}
 					  				textSchedule={item.scheduledTime}
 					  				textButton="Get interview link"
+					  				href={"https://api-test.vanhack.dev/Calendar/interviewlink/" + item.id }
 								/>
 							</div>
 						))}
@@ -107,11 +108,13 @@ class Calendar extends Component {
 					  				interviewStep={item.interviewStep}
 					  				textSchedule={item.scheduledTime}
 					  				textButton="Move to the next step"
+					  				href={"https://api-test.vanhack.dev/Calendar/movenextstep/" + item.id }
 					  				textSideButton="Reject"
+					  				linkTextSide={"https://api-test.vanhack.dev/Calendar/reject/" + item.id}
 								/>
 							</div>
 						))}
-					
+
 				</div>
 			);
 		}
